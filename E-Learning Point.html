@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Point</title>
+    <link rel="stylesheet" href="E-Learning Point.css">
+</head>
+<body>
+<!-- Top Navigation Bar -->
+<nav id="top-nav">
+    <div class="nav-left">
+        <img src="E-Learning Connect Point.jpg" alt="Logo" class="logo">
+    </div>
+    <div class="nav-right">
+        <span class="greeting">Hi, <span id="username">Username</span></span>
+        <img src="path-to-user-icon.png" alt="User Icon" class="user-icon">
+    </div>
+</nav>
+<!-- Side Navigation Bar -->
+<nav id="side-nav">
+    <ul>
+        <li><a href="#home" class="nav-link" data-target="home">Home</a></li>
+        <li><a href="#learn" class="nav-link" data-target="learn">Learn</a></li>
+        <li><a href="#dashboard" class="nav-link" data-target="dashboard">Dash Board</a></li>
+        <li><a href="#virtuallab" class="nav-link" data-target="virtuallab">Virtual-Lab</a></li>
+        <li><a href="#elearning" class="nav-link" data-target="elearning">E-Library</a></li>
+        <li><a href="#contactus" class="nav-link" data-target="contactus">Contact Us</a></li>
+        <li><a href="#aboutus" class="nav-link" data-target="aboutus">About Us</a></li>
+        <li><a href="#tc" class="nav-link" data-target="tc">Terms & Conditions</a></li>
+    </ul>
+</nav>
+
+<!-- Header -->
+<main>
+    <section id="home" class="content-section">
+        <h1>Welcome to E-Learning Point</h1>
+        <strong>This is the main page of our e-learning platform.</strong>
+        <p>
+            We’re excited to welcome you to E-Learning Connect Point, an innovative open-source e-learning platform designed to revolutionize your educational experience. Our platform offers a dynamic and interactive environment where you can explore a wide range of courses, engage in hands-on virtual labs, and connect with a vibrant learning community.
+        </p>
+        <h3>What You Can Expect:</h3>
+        <ul>
+            <li><b>Diverse Courses: </b>Access a broad array of subjects and materials tailored to various interests and learning levels.</li>
+            <li><b>Interactive Learning: </b>Engage with multimedia content, quizzes, and assignments that make learning both effective and enjoyable.</li>
+            <li><b>Virtual Labs: </b>Experience practical learning through our simulated environments that allow you to experiment and apply concepts in a risk-free setting.</li>
+            <li><b>Community Support: </b>Connect with peers, educators, and mentors through forums and collaborative tools.</li>
+        </ul>
+        <b>At E-Learning Connect Point, our goal is to provide you with a comprehensive and accessible learning experience that fosters growth and innovation. We’re here to support you every step of the way. Welcome aboard, and happy learning!</b>
+    </section>
+    <section id="learn" class="content-section">
+        <h2>Learn</h2>
+        <p><strong>Here you can find all the available courses and lessons.</strong></p>
+        <p>In this section, you'll find HTML, CSS, JavaScript, Java (Core and Advanced), SQL, and many more.</p>
+        <div class="video-library">
+            <!-- Video Item Template -->
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/HGTJBPNC-Gw" title="HTML &amp; CSS Full Course for free 🌎 (2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h2 class="video-title">HTML 5 By Bro Code</h2>
+                    <p class="video-description">This video covers the basics of HTML including elements, attributes, and structure.</p>
+                    <p class="video-tags">Tags: HTML, Basics, Web Development</p>
+                </div>
+            </div>
+            <!-- Repeat this block for each video -->
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/G3e-cpL7ofc" title="HTML &amp; CSS Full Course - Beginner to Pro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h2 class="video-title">Introduction to HTML & CSS</h2>
+                    <p class="video-description">This video covers the basics of HTML including elements, attributes, and structure.</p>
+                    <p class="video-tags">Tags: HTML, Basics, Web Development</p>
+                </div>
+            </div>
+            <!-- Repeat for other videos -->
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/a_iQb1lnAEQ" title="Learn HTML &amp; CSS – Full Course for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h2 class="video-title">Free Code camp Presents Front-End Tech</h2>
+                    <p class="video-description">This video covers the basics of HTML including elements, attributes, and structure.</p>
+                    <p class="video-tags">Tags: HTML, Basics, Web Development, U.I</p>
+                </div>
+            </div>
+            <!-- Repeat for other videos -->
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/jS4aFq5-91M" title="JavaScript Programming - Full Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h2 class="video-title">Introduction to JavaScript</h2>
+                    <p class="video-description">This video covers the basics of JavaScript.</p>
+                    <p class="video-tags">Tags: JavaScript Tutorials</p>
+                </div>
+            </div>
+            <!-- Repeat for other videos -->
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/A74TOX803D0" title="Java Programming for Beginners – Full Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h2 class="video-title">Introduction to Java Programming Language</h2>
+                    <p class="video-description">This video covers the basics of Java Programming Language.</p>
+                    <p class="video-tags">Tags: Java Programming Language</p>
+                </div>
+            </div>
+            <!-- Repeat for other videos -->
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/BGTx91t8q50" title="Java Tutorial for Beginners 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h2 class="video-title">Java 2023</h2>
+                    <p class="video-description">This video covers the basics of Java Programming Language.</p>
+                    <p class="video-tags">Tags: Java Programming Language</p>
+                </div>
+            </div>
+            <!-- Repeat for other videos -->
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/ObbNGhcxXJA" title="Oracle SQL Tutorial | Oracle DBA | Oracle SQL for Beginners | Great Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h2 class="video-title">Oracle SQL Tutorial</h2>
+                    <p class="video-description">Oracle SQL Tutorial | Oracle DBA | Oracle SQL for Beginners | Great Learning</p>
+                    <p class="video-tags">Tags: Oracle SQL, SQL</p>
+                </div>
+            </div>
+            <!-- Repeat for other videos -->
+        </div>
+    </section>
+    <section id="dashboard" class="content-section">
+        <h2>Dashboard</h2>
+        <p><strong>This is the dashboard page.</strong></p>
+        <p>Here you can track your progress, view completed courses, and manage your profile.</p>
+        <!-- Additional content like charts, progress bars, recent activity -->
+        <div class="dashboard-content">
+            <div class="progress-section">
+                <h3>Course Progress</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;">75%</div>
+                </div>
+            </div>
+            <div class="recent-activity">
+                <h3>Recent Activity</h3>
+                <ul>
+                    <li>Completed "Introduction to HTML & CSS" course</li>
+                    <li>Started "JavaScript Programming - Full Course"</li>
+                    <li>Attended "Java Tutorial for Beginners 2023" webinar</li>
+                </ul>
+            </div>
+            <div class="profile-management">
+                <h3>Profile Management</h3>
+                <button>Edit Profile</button>
+                <button>Change Password</button>
+            </div>
+        </div>
+    </section>
+    <section id="virtuallab" class="content-section">
+        <h2>Virtual-Lab</h2>
+        <p><strong>This is the virtual-lab page.</strong></p>
+        <p>Here you can access the virtual labs for practical learning experiences.</p>
+        <!-- Add content like lab exercises, simulations, step-by-step guides -->
+        <div class="lab-exercises">
+            <h3>Available Labs</h3>
+            <ul>
+                <li><a href="#">HTML & CSS Lab</a></li>
+                <li><a href="#">JavaScript Lab</a></li>
+                <li><a href="#">Java Programming Lab</a></li>
+                <li><a href="#">SQL Lab</a></li>
+            </ul>
+        </div>
+        <div class="lab-guides">
+            <h3>Step-by-Step Guides</h3>
+            <ul>
+                <li><a href="#">Building Your First Web Page</a></li>
+                <li><a href="#">JavaScript Event Handling</a></li>
+                <li><a href="#">Java Basics: Classes and Objects</a></li>
+                <li><a href="#">SQL Query Writing</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="elearning" class="content-section">
+        <h2>E-Library</h2>
+        <p><strong>This is the E-Library page.</strong></p>
+        <p>Here you can find all the available e-books and learning materials.</p>
+        <!-- Add content like downloadable resources, categorized books, search functionality -->
+        <div class="library-resources">
+            <h3>Available E-Books</h3>
+            <ul>
+                <li><a href="#">HTML & CSS: Design and Build Websites</a></li>
+                <li><a href="#">JavaScript: The Good Parts</a></li>
+                <li><a href="#">Java: A Beginner's Guide</a></li>
+                <li><a href="#">Learning SQL</a></li>
+            </ul>
+        </div>
+        <div class="search-library">
+            <h3>Search the Library</h3>
+            <input type="text" placeholder="Search for books, authors, or topics...">
+            <button>Search</button>
+        </div>
+    </section>
+    <section id="contactus" class="content-section">
+        <h2>Contact Us</h2>
+        <p><strong>This is the contact us page.</strong></p>
+        <p>For any inquiries, please reach out to us at contact@elearningpoint.com.</p>
+        <!-- Add contact form -->
+        <div class="contact-form">
+            <h3>Get in Touch</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            <br>
+            <a href="https://sai-teja-rachamalla.github.io/Sai-Teja/">Developer's Contact</a>
+            <p>Please contact us if you have any questions or need assistance.</p>
+        </div>
+    </section>
+    <section id="aboutus" class="content-section">
+        <h2>About Us</h2>
+        <p><strong>This is the about us page.</strong></p>
+        <p>E-Learning Point is a platform dedicated to providing quality education to everyone, everywhere.</p>
+        <!-- Add more detailed information about the organization, mission, team -->
+        <div class="about-content">
+            <h3>Our Mission</h3>
+            <p>At E-Learning Point, our mission is to democratize education by providing accessible, high-quality learning resources to students around the world.</p>
+            
+            <h3>Our Team</h3>
+            <p>We are a group of educators, developers, and designers passionate about making learning engaging and effective.</p>
+            
+            <h3>Our Story</h3>
+            <p>Founded in 2024, E-Learning Point started as a small project to help students.</p>
+        </div>
+    </section>
+    <section id="tc" class="content-section">
+        <h2>Terms & Conditions</h2>
+        <p><strong>This is the terms & conditions page.</strong></p>
+        <ol>
+            <li>Term 1: Your use of our service is subject to our terms and conditions.</li>
+            <li>Term 2: We reserve the right to modify our terms at any time.</li>
+            <li>Term 3: You are responsible for complying with all applicable laws.</li>
+        </ol>
+        <!-- Add more detailed terms and conditions as necessary -->
+        <div class="terms-details">
+            <h3>Privacy Policy</h3>
+            <p>We value your privacy and are committed to protecting your personal information. Please review our privacy policy for more details.</p>
+            
+            <h3>Acceptable Use Policy</h3>
+            <p>Users must use our platform responsibly and must not engage in any activities that could harm other users or our services.</p>
+            
+            <h3>Contact Information</h3>
+            <p>If you have any questions about our terms and conditions, please contact us at legal@elearningpoint.com.</p>
+        </div>
+    </section>
+</main>
+<script src="E-Learning Point.js"></script>
+</body>
+</html>

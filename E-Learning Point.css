@@ -1,0 +1,333 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Styles for the top nav bar */
+#top-nav {
+    background-color: #007bff; /* Blue */
+    color: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+/* Styles for the logo */
+#top-nav .logo {
+    height: 40px;
+}
+
+/* Styles for the user info section */
+#top-nav .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for the greeting text */
+#top-nav .greeting {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Styles for the user icon */
+#top-nav .user-icon {
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white; /* Adding a border to stand out */
+}
+
+/* Styles for the side nav bar */
+#side-nav {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+    color: white;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    padding-top: 20px;
+}
+
+/* Styles for the side nav bar list */
+#side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles for the side nav bar list items */
+#side-nav ul li {
+    margin-bottom: 10px;
+}
+
+/* Styles for the side nav bar links */
+#side-nav ul li a {
+    color: #ffffff; /* White */
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for the side nav bar links */
+#side-nav ul li a:hover {
+    background-color: #ffffff; /* White */
+    color: #ff7e5f; /* Pinkish Red */
+}
+
+/* Styles for the main content */
+main {
+    margin-left: 220px;
+    padding: 70px 20px 20px 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #007bff; /* Blue */
+}
+
+/* Hide all sections by default */
+.content-section {
+    display: none;
+}
+
+/* Show only the active section */
+.content-section.active {
+    display: block;
+}
+
+/* Video Library */
+.video-library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video-item {
+    width: calc(33.333% - 20px); /* Three columns with gap */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.video-item:hover {
+    transform: translateY(-5px);
+}
+
+.video-info {
+    padding: 10px;
+}
+
+.video-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.video-description {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.video-tags {
+    font-size: 14px;
+    color: #999;
+}
+
+
+/* Dashboard Content */
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.progress-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.progress {
+    background-color: #4CAF50;
+    height: 100%;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.recent-activity, .profile-management {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile-management button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.profile-management button:hover {
+    background-color: #45a049;
+}
+
+
+/* Virtual Lab */
+.lab-exercises, .lab-guides {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.lab-exercises ul, .lab-guides ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lab-exercises li, .lab-guides li {
+    margin-bottom: 10px;
+}
+
+.lab-exercises a, .lab-guides a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.lab-exercises a:hover, .lab-guides a:hover {
+    text-decoration: underline;
+}
+
+/* E-Library */
+.library-resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+.library-resources li {
+    margin-bottom: 10px;
+}
+
+.library-resources a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.library-resources a:hover {
+    text-decoration: underline;
+}
+
+.search-library {
+    margin-top: 20px;
+}
+
+.search-library input {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-library button {
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search-library button:hover {
+    background-color: #45a049;
+}
+
+/* Contact Form */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contact-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
