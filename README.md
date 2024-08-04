@@ -1,3 +1,3 @@
 # E-Learning-Connect
 Prototype Link :
-https://sai-teja-rachamalla.github.io/E-Learning-Connect/
+https://sai-teja-rachamalla.github.io/E-Learning-Connect-Point/
